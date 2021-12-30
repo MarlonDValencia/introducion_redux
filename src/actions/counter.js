@@ -2,15 +2,15 @@
 import { counter as CounterTypes } from '../constants/actionTypes'
 
 
-export const incrementarContador = () => async(dispatch) => {
+export const incrementarContador = () => (dispatch) => {
     dispatch({
-        type: CounterTypes.INCREMENTAR
+        type: "counter/INCREMENTAR"
     })
 }
 
 export const decrementarContador = () => async(dispatch) => {
     dispatch({
-        type: CounterTypes.DECREMENTAR
+        type: 'counter/DECREMENTAR'
     })
 }
 

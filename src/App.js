@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { Provider, connect } from 'react-redux';
 import {store} from './config/store'
 import CounterActions from './actions/counter'

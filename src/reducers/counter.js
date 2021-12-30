@@ -2,7 +2,6 @@
 import { counter as counterActions} from "../constants/actionTypes"
 
 const INITIAL_STATE = {
-
     count:0,
 }
 
